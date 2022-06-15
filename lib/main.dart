@@ -61,6 +61,8 @@ class _MyHomePageState extends State<MyHomePage> {
 
     navigatorKey: navigatorKey,
   );
+
+  //error
   final AadOAuth oauth = AadOAuth(configB2Ca);
 
   @override
